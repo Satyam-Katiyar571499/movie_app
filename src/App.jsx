@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import error from "./Error";
+import Error from "./Error";
 import Home from "./components/Home";
 import Trending from "./components/Trending";
 import Popular from "./components/Popular";
@@ -9,9 +9,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Movies from "./components/Movies";
 import People from "./components/People";
-import Moviedetails from "./components/moviedetails";
+import Moviedetails from "./components/Moviedetails";
 import Tvdetails from "./components/Tvdetails"
-import Peopledetails from "./components/peopledetails";
+import Peopledetails from "./components/Peopledetails";
 import Trailer from "./components/template/Trailer";
 function App() {
   return (
